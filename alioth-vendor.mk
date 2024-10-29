@@ -193,8 +193,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libfcsam \
-    audio.primary.alioth \
-    liba2dpoffload_alioth \
+    audio.primary.kona \
+    liba2dpoffload \
     libaudio_log_utils \
     libaudiocloudctrl \
     libaudioroute_ext \
