@@ -45,7 +45,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.primary.alioth",
+    name: "audio.primary.kona",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -53,7 +53,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/hw/audio.primary.alioth.so",
+                "proprietary/vendor/lib/hw/audio.primary.kona.so",
             ],
             shared_libs: [
                 "libbase",
@@ -88,7 +88,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "liba2dpoffload_alioth",
+    name: "liba2dpoffload",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -96,7 +96,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/liba2dpoffload_alioth.so",
+                "proprietary/vendor/lib/liba2dpoffload.so",
             ],
             shared_libs: [
                 "libaudioutils",
