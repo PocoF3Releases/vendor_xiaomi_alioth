@@ -312,6 +312,7 @@ PRODUCT_PACKAGES += \
     libSuperSensor \
     libSuperSensorCPU \
     lib_sr_models \
+    libaachaptics \
     libalAILDC \
     libalCFR \
     libalLDC \
