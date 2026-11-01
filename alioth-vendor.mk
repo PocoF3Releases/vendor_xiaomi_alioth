@@ -136,6 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/alioth/proprietary/vendor/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-tgame.conf \
     vendor/xiaomi/alioth/proprietary/vendor/etc/thermal-video.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-video.conf \
     vendor/xiaomi/alioth/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
+    vendor/xiaomi/alioth/proprietary/vendor/etc/vibrator/effect_1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_1.bin \
     vendor/xiaomi/alioth/proprietary/vendor/etc/vibrator/primitive_effect_1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/primitive_effect_1.bin \
     vendor/xiaomi/alioth/proprietary/vendor/etc/vibrator/primitive_effect_2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/primitive_effect_2.bin \
     vendor/xiaomi/alioth/proprietary/vendor/etc/vibrator/primitive_effect_7.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/primitive_effect_7.bin \
