@@ -197,12 +197,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/alioth/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf
 
 PRODUCT_PACKAGES += \
-    libfcsam \
     audio.primary.kona \
     liba2dpoffload \
     libaudio_log_utils \
     libaudiocloudctrl \
     libaudioroute_ext \
+    libfcsam \
     libmmhardware \
     libresampler \
     vendor.qti.hardware.audiohalext@1.0 \

@@ -12,39 +12,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "libfcsam",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libfcsam.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libdl",
-                "libc",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libfcsam.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libdl",
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "audio.primary.kona",
     owner: "xiaomi",
     strip: {
@@ -194,6 +161,29 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfcsam",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libfcsam.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libdl",
+                "libc",
             ],
         },
     },
